@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PatientsDBModelContainer" CdmEntityContainer="PatientsDBEntities">
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="PatientsDBModel.Patients">
+        <MappingFragment StoreEntitySet="Patients">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="p_fName" ColumnName="p_fName" />
+          <ScalarProperty Name="p_lName" ColumnName="p_lName" />
+          <ScalarProperty Name="p_faName" ColumnName="p_faName" />
+          <ScalarProperty Name="p_idcard" ColumnName="p_idcard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
